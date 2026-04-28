@@ -5,8 +5,8 @@
 # (or `shasum -a 256 AirAssist-<version>.zip`).
 
 cask "airassist" do
-  version "0.9.0"
-  sha256 "e1f19452b1fc72ede62e69c7e18aa7dede042573a93c81a979740ff69479a29f"
+  version "0.13.0"
+  sha256 "a6a861e8a13292e0683967524f7e4a20ebe3c1e95ed1a3204aefd7e0cbedf321"
 
   url "https://github.com/sjschillinger/airassist/releases/download/v#{version}/AirAssist-#{version}.zip"
   name "Air Assist"
