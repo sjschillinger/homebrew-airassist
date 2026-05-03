@@ -2,13 +2,13 @@
 #
 # Bump `version` + `sha256` on every release. The rest is static.
 # SHA256 comes from SHA256SUMS.txt attached to the GitHub Release
-# (or `shasum -a 256 AirAssist-<version>.zip`).
+# (or `shasum -a 256 AirAssist-<version>.dmg`).
 
 cask "airassist" do
-  version "0.13.0"
-  sha256 "a6a861e8a13292e0683967524f7e4a20ebe3c1e95ed1a3204aefd7e0cbedf321"
+  version "0.14.0"
+  sha256 "90339a26d954740df529efaa718752993d5fd14ebf6de89e45060df052a7e6ee"
 
-  url "https://github.com/sjschillinger/airassist/releases/download/v#{version}/AirAssist-#{version}.zip"
+  url "https://github.com/sjschillinger/airassist/releases/download/v#{version}/AirAssist-#{version}.dmg"
   name "Air Assist"
   desc "Menu-bar thermal monitor and workload governor for fanless Macs, such as MacBook Airs and Neos"
   homepage "https://github.com/sjschillinger/airassist"
