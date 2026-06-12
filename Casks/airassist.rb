@@ -15,7 +15,7 @@ cask "airassist" do
 
   # Air Assist is Apple Silicon only and targets recent macOS. Keep these
   # in sync with project.yml's deployment target (currently macOS 15).
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   # `brew livecheck` and `brew bump-cask-pr` parse GitHub's latest-release
